@@ -16,3 +16,13 @@ body {
 .logo {
 image-
 }
+
+header {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: indigo;
+}
