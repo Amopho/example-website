@@ -21,8 +21,8 @@ body {
 
 header img {
   position: relative;
-  left: -2rem;
-  width: 15vw;
+  left: -3rem;
+  width: 10vw;
 }
 
 header {
@@ -83,6 +83,7 @@ article p {
   font-size: 14px;
   width: 20rem;
   padding-top: 2rem;
+  padding-bottom: 1rem;
   font-weight: bold;
   border-top: 2px red solid;
   border-right: 2px red solid;
@@ -98,11 +99,22 @@ div img {
   border-left: 2px red solid;
 }
 
+.handy-two {
+  position: relative;
+  left: 7rem;
+  top: 1.5rem;
+}
+
 button {
   border-radius: 5px;
+  border: hidden;
   width: 9rem;
   height: 2.5rem;
   background-color: steelblue;
+}
+
+.green {
+  background-color: rgb(32, 201, 102);
 }
 
 button a {
