@@ -7,22 +7,54 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-image: url(../img/bg_001.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  margin: 5rem 20rem 10rem 20rem;
 }
 
-.logo {
-image-
+header img {
+  width: 15vw;
 }
 
 header {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-decoration: none;
+  display: inline-flex;
+  display: float;
+  border-top: 2px red solid;
+  border-right: 2px red solid;
+  border-bottom: 2px red solid;
+  border-left: 2px red solid;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.5rem;
+  position: relative;
+  border-top: 2px red solid;
+  border-right: 2px red solid;
+  border-bottom: 2px red solid;
+  border-left: 2px red solid;
+}
+
+header a {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 header a:hover {
-    color: indigo;
+  color: rgb(134, 89, 59);
+}
+
+.container {
+  border-top: 2px red solid;
+  border-right: 2px red solid;
+  border-bottom: 2px red solid;
+  border-left: 2px red solid;
 }
