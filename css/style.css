@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
 
 * {
   margin: 0 auto;
@@ -12,6 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   margin: 5rem 20rem 10rem 20rem;
 }
 
@@ -22,6 +26,7 @@ header img {
 header {
   display: inline-flex;
   display: float;
+  width: 100%;
   border-top: 2px red solid;
   border-right: 2px red solid;
   border-bottom: 2px red solid;
@@ -52,7 +57,39 @@ header a:hover {
   color: rgb(134, 89, 59);
 }
 
-.container {
+article {
+  color: aliceblue;
+  display: flex;
+  border-top: 2px red solid;
+  border-right: 2px red solid;
+  border-bottom: 2px red solid;
+  border-left: 2px red solid;
+}
+
+article h1 {
+  font-weight: bold;
+  font-size: 32px;
+  width: 20rem;
+  padding-top: 4rem;
+  border-top: 2px red solid;
+  border-right: 2px red solid;
+  border-bottom: 2px red solid;
+  border-left: 2px red solid;
+}
+
+article p {
+  font-size: 16px;
+  width: 20rem;
+  position: ;
+  font-weight: bold;
+  border-top: 2px red solid;
+  border-right: 2px red solid;
+  border-bottom: 2px red solid;
+  border-left: 2px red solid;
+}
+
+div img {
+  width: 13rem;
   border-top: 2px red solid;
   border-right: 2px red solid;
   border-bottom: 2px red solid;
