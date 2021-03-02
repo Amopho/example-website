@@ -20,6 +20,8 @@ body {
 }
 
 header img {
+  position: relative;
+  left: -2rem;
   width: 15vw;
 }
 
@@ -48,7 +50,7 @@ header a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
   color: aliceblue;
 }
@@ -78,9 +80,9 @@ article h1 {
 }
 
 article p {
-  font-size: 16px;
+  font-size: 14px;
   width: 20rem;
-  position: ;
+  padding-top: 2rem;
   font-weight: bold;
   border-top: 2px red solid;
   border-right: 2px red solid;
@@ -94,4 +96,19 @@ div img {
   border-right: 2px red solid;
   border-bottom: 2px red solid;
   border-left: 2px red solid;
+}
+
+button {
+  border-radius: 5px;
+  width: 9rem;
+  height: 2.5rem;
+  background-color: steelblue;
+}
+
+button a {
+  font-size: 16px;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
 }
