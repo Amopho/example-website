@@ -57,5 +57,18 @@
         <img src="./img/phone_001.png" alt="handy 1" />
       </div>
     </section>
+    <script>
+      let clicked = false;
+      document.querySelector(".hamburger").addEventListener("click", () => {
+        clicked = !clicked;
+        console.log(clicked);
+        if (clicked) {
+          document.querySelector(".side-menu").style.cssText =
+            "display: block; position: absolute;top: 3vh;left:0;z-index: 1;";
+        } else {
+          document.querySelector(".side-menu").style.cssText = "display: none;";
+        }
+      });
+    </script>
   </body>
 </html>
