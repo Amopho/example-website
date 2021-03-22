@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 16px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url(../img/bg_001.jpg);
@@ -17,18 +21,19 @@ body {
   background-attachment: fixed;
   background-position: center;
   margin-top: 5vh;
-  border: red 2px dashed;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: space-evenly;
   width: 100vw;
   /* height: auto; */
 }
 
 .menu img {
-  width: 15vw;
+  width: 15%;
+  min-width: 300px;
 }
 
 .menu {
@@ -38,33 +43,60 @@ body {
   flex-direction: row;
   width: 80vw;
   border: 2px dashed blue;
+  position: relative;
 }
 
-.hamburger {
+.x-hamburger {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  position: absolute;
   width: 2rem;
   height: 2rem;
   left: 0;
   cursor: pointer;
 }
 
-.hamburger div {
+.x-hamburger div {
   width: 2rem;
   border: 2px black solid;
+  border-radius: 1rem;
+}
+
+.x-hamburger:hover .onex {
+  transform: rotate(0.15turn);
+  /* position: absolute; */
+  transition: all 0.25s ease-in 0s;
+}
+
+.x-hamburger:hover .twox {
+  display: none;
+}
+
+.x-hamburger:hover .threex {
+  transform: rotate(-0.15turn);
+  position: absolute;
+  transition: all 0.25s ease-in 0s;
+}
+
+.x-hamburger:hover {
+  background-color: steelblue;
 }
 
 a {
   text-decoration: none;
 }
+
 .side-menu {
   background-color: steelblue;
   width: 5rem;
   height: 15rem;
   display: none;
-  border: dashed pink 2px;
+  list-style: none;
+}
+
+.side-menu ul li {
   list-style: none;
 }
 
