@@ -28,20 +28,25 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   width: 100vw;
-  /* height: auto; */
 }
 
 .menu img {
-  width: 15%;
+  width: 25%;
   min-width: 300px;
+  height: 6rem;
+  margin: 1.5rem;
+  position: absolute;
+  left: 10rem;
 }
 
 .menu {
+  border: solid red 2px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   width: 80vw;
+  height: 20vh;
   position: relative;
 }
 
@@ -65,7 +70,6 @@ body {
 
 .x-hamburger:hover .onex {
   transform: rotate(0.15turn);
-  /* position: absolute; */
   transition: all 0.25s ease-in 0s;
 }
 
@@ -83,28 +87,35 @@ body {
   background-color: steelblue;
 }
 
-a {
-  text-decoration: none;
-}
-
 .side-menu {
   background-color: steelblue;
   width: 5rem;
   height: 15rem;
   display: none;
   list-style: none;
+  position: relative;
 }
 
 .side-menu ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+.menu-inline {
+  /* float: right; */
+  width: 40vw;
+  min-width: 300px;
+  border: steelblue 2px solid;
+}
+
 .menu-inline ul li {
   list-style: none;
-  display: inline-block;
   letter-spacing: 0.75rem;
   padding: 0.5rem;
-  border: dashed 2px red;
+  display: inline;
   /* display: none;
   only for mobile view */
 }
@@ -128,8 +139,9 @@ a {
   justify-content: space-evenly;
   align-items: center;
   flex-flow: row;
-  border: dashed 2px red;
   width: 80vw;
+  height: 80vh;
+  border: solid 2px red;
 }
 
 .main-text {
@@ -146,7 +158,6 @@ a {
   font-size: 32px;
   width: 20rem;
   padding-top: 4rem;
-  border: dashed 2px red;
 }
 
 .container p {
@@ -155,7 +166,6 @@ a {
   padding-top: 2rem;
   padding-bottom: 1rem;
   font-weight: bold;
-  border: red 2px dashed;
 }
 
 .container img {
@@ -163,7 +173,6 @@ a {
   min-width: 300px;
   height: auto;
   /* display: block; for mobile view */
-  border: red 2px dashed;
 }
 
 .handy-two {
