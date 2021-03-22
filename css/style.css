@@ -42,7 +42,6 @@ body {
   align-items: center;
   flex-direction: row;
   width: 80vw;
-  border: 2px dashed blue;
   position: relative;
 }
 
@@ -106,8 +105,8 @@ a {
   letter-spacing: 0.75rem;
   padding: 0.5rem;
   border: dashed 2px red;
-  display: none;
-  /* only for mobile view */
+  /* display: none;
+  only for mobile view */
 }
 
 .menu a {
@@ -126,10 +125,20 @@ a {
 .container {
   color: aliceblue;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-flow: row;
   border: dashed 2px red;
   width: 80vw;
+}
+
+.main-text {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  align-items: center;
+  width: 50%;
+  min-width: 300px;
 }
 
 .container h1 {
