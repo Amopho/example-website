@@ -37,7 +37,7 @@ body {
   align-items: center;
   flex-direction: row;
   width: 80vw;
-  border: 2px dashed red;
+  border: 2px dashed blue;
 }
 
 .hamburger {
@@ -47,7 +47,6 @@ body {
   flex-direction: column;
   width: 2rem;
   height: 2rem;
-  position: absolute;
   left: 0;
   cursor: pointer;
 }
@@ -65,9 +64,7 @@ a {
   width: 5rem;
   height: 15rem;
   display: none;
-}
-
-.side-menu li {
+  border: dashed pink 2px;
   list-style: none;
 }
 
@@ -78,6 +75,7 @@ a {
   padding: 0.5rem;
   border: dashed 2px red;
   display: none;
+  /* only for mobile view */
 }
 
 .menu a {
@@ -120,7 +118,10 @@ a {
 }
 
 .container img {
-  width: 13rem;
+  max-width: 25%;
+  min-width: 300px;
+  height: auto;
+  /* display: block; for mobile view */
   border: red 2px dashed;
 }
 
