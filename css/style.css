@@ -34,7 +34,6 @@ body {
   width: 5vh;
   display: flex;
   flex-direction: row;
-  fle
   align-self: flex-start;
   min-width: 300px;
   height: auto;
@@ -44,9 +43,10 @@ body {
 .menu {
   border: solid red 2px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: row;
+  justify-content: space-between;
+  place-content: center;
   width: 80vw;
   height: 20vh;
   position: relative;
@@ -106,7 +106,9 @@ a {
 }
 
 .menu-inline {
-  /* float: right; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 40vw;
   min-width: 300px;
   border: steelblue 2px solid;
