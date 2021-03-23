@@ -40,7 +40,6 @@ body {
 }
 
 .menu {
-  border: solid red 2px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -110,7 +109,6 @@ a {
   justify-content: space-between;
   width: 40vw;
   min-width: 300px;
-  border: steelblue 2px solid;
 }
 
 .menu-inline ul li {
@@ -142,7 +140,6 @@ a {
   flex-direction: row;
   width: 80vw;
   height: 80vh;
-  border: solid 2px red;
 }
 
 .main-text {
