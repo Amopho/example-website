@@ -31,12 +31,14 @@ body {
 }
 
 .menu img {
-  width: 25%;
+  width: 5vh;
+  display: flex;
+  flex-direction: row;
+  fle
+  align-self: flex-start;
   min-width: 300px;
-  height: 6rem;
-  margin: 1.5rem;
-  position: absolute;
-  left: 10rem;
+  height: auto;
+  padding: 0 1rem 1rem 0;
 }
 
 .menu {
@@ -55,7 +57,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  position: absolute;
   width: 2rem;
   height: 2rem;
   left: 0;
@@ -137,7 +138,7 @@ a {
   color: aliceblue;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  /* align-items: center; */
   flex-flow: row;
   width: 80vw;
   height: 80vh;
@@ -203,9 +204,18 @@ button a {
 
 /* Display on various devices */
 
+@media only screen and (min-width: 600px) {
+  .x-hamburger {
+    display: none;
+  }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .container {
     flex-direction: column;
+  }
+  .menu-inline {
+    display: none;
   }
 }
